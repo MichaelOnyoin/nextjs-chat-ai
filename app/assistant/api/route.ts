@@ -3,7 +3,7 @@
 import { AssistantResponse } from "ai";
 import OpenAI from "openai";
 
-import { Run } from "openai/resources/beta/threads/runs/runs.mjs";
+import { Run } from "openai/resources/beta/threads/runs/runs";
 
 
 // Create an OpenAI API client (that's edge friendly!)
